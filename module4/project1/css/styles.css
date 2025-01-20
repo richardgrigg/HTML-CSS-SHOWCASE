@@ -1,0 +1,77 @@
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    color: #fff;
+    font-family: "Blinker", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.card-img { 
+    order: -1;
+    background-position: center;
+    background-size: cover;
+}
+
+main {
+    background: #111d4a;
+    padding: 10px 30px;
+}
+
+.light-blue {
+    color: #05cbe9;
+}
+
+.dark-blue {
+    color: #111d4a;
+}
+
+.grey {
+    color: #555555;
+
+}
+/* 
+Small
+title: 28px
+body: 16px
+button: 20px;
+
+Large
+title: 36px
+body: 18px
+button: 20px;
+
+*/
+
+/* Typography - Mobile First */
+h1 {
+    font-size: 28px;
+    color: #05cbe9;    
+}
+
+
+p {
+    font-size: 16px;
+    color: #555555;
+}
+
+.btn {
+    font-size: 20px;
+    padding: 20px 30px;
+}
+
+/* @media(min-width: 400px) {
+    .container {
+        flex-direction: column;
+    }
+} */

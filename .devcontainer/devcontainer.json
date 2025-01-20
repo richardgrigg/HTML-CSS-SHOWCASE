@@ -1,0 +1,18 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/alpine
+{
+	"name": "Alpine",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"mounts": [
+		"source=${localEnv:HOME}/.ssh,target=/home/node/.ssh,type=bind,consistency=cached"
+		],
+  	// Automatically expose port 8080 (mapped to container's port 80, nginx's default) for development
+  	"appPort": "8080:80",
+  	
+	// Make sure our nginx container's default command runs, which starts up the web server in the background.
+  	"overrideCommand": false
+
+}

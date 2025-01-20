@@ -1,0 +1,43 @@
+body {
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #2E7AD3;    
+    text-align: center;
+    font-size: 48px;
+    margin: 45px 0;
+}
+
+.blog-post {
+    background: #F1F1F1;
+    width: 450px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+h2 {
+    font-size: 32px;    
+    color: #104C90;
+    margin: 0 0 10px;
+}
+
+img {
+    margin: 10 0;
+}
+
+p {
+    color: black;
+    font-size: 16px;
+    margin-top: 9px;
+}
+
+strong {
+    color: #FF8000;
+    text-decoration: underline;
+}
+
+a:link, a:hover {
+    color: #FF8000;
+}

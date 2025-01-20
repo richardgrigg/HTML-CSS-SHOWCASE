@@ -1,0 +1,19 @@
+/*  font-family: 'Source Sans Pro', sans-serif;  */
+
+/* Use rem for font sizes - rem size = pixel size / 16
+
+e.g for a font-size of 28 pixels use 1.75rem (24/16)
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 1rem;
+    color: #404040;
+
+}
+

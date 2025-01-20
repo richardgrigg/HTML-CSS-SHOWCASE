@@ -1,0 +1,75 @@
+.atma-medium {
+    font-family: "Atma", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, p {
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+a {
+    color: #FFE600;
+}
+
+header, section {
+    padding: 50px;
+}
+
+header {
+    padding: 50px;
+    background: #FFE600;
+    color: #000;
+}
+
+.section-one {
+    background: black;
+    color: white;
+}
+
+.section-two a {
+    color: black;
+}
+
+
+
+.btn {
+    display: inline-block;    
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.btn-accent {
+    background: #FFE600;
+    color:black;
+}
+
+.btn-dark {
+    background: black;
+    color: #FFE600;
+}
+
+.section-one .btn:hover {
+    background: white;
+}
+
+.section-two .btn:hover {
+    background: #FFE600;
+    color:black;
+}
