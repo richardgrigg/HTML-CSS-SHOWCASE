@@ -1,0 +1,71 @@
+/*  font-family: 'Source Sans Pro', sans-serif;  */
+
+/* Use rem for font sizes - rem size = pixel size / 16
+
+e.g for a font-size of 28 pixels use 1.75rem (24/16)
+
+Always typography first
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 1rem;
+    color: #404040;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns:1em auto 1em;
+    grid-template-areas: 
+        "header header header"
+        ". content ."
+        ". sidebar ."
+        "footer footer footer";
+}
+
+@media (min-width: 600px) {
+    .grid {
+        grid-template-columns: 100px 300px 100px 100px;
+        grid-template-areas:
+            "header header header header"
+            ". content sidebar ."
+            "footer footer footer footer "
+    }
+}
+
+.header {
+    grid-area: header;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.big {
+    grid-area: content;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.grid-item {
+    background: #B823C1;
+    color: white;
+    padding: 1em 2em;
+    border: 2px solid purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.big {
+    padding: 3em 2em;
+    background: #FF5670;
+}

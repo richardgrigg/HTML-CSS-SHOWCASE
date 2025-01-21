@@ -3,6 +3,8 @@
 /* Use rem for font sizes - rem size = pixel size / 16
 
 e.g for a font-size of 28 pixels use 1.75rem (24/16)
+
+Always typography first
 */
 
 * {
