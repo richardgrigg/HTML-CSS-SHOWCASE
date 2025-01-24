@@ -1,0 +1,104 @@
+/*  font-family: 'Source Sans Pro', sans-serif;  */
+
+/* Use rem for font sizes - rem size = pixel size / 16
+
+e.g for a font-size of 28 pixels use 1.75rem (24/16)
+
+Always typography first
+
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat", serif;
+    font-size: 18px;
+    color: white;
+    background: black;
+    
+}
+
+/* Typography */
+
+/* Nav */
+ul li a {
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+h1, h1 > strong {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+h1 > strong {
+    color: yellow;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+/* Font awesome for social icons */
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* Layout */
+ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr; 
+    grid-template-rows: 180px repeat(5, 100px);
+}
+
+
+h1, h2 {
+    grid-column: 2/-1;
+}
+
+.btn {
+    grid-column: 2 / 2;
+    justify-content: left;
+    width: 100px;
+    padding: 20px 15px;
+}
+
+header {
+    grid-column: 1 / -1;
+    display: flex;
+    border: yellow solid 1px;
+}
+
+header img {
+    align-self: flex-start;
+    justify-content: end;
+    background-color: yellow;
+}
+
