@@ -1,0 +1,19 @@
+# HTML CSS Showcase
+
+## Summary
+This project was built as part of a course
+[Learn Responsive Web Design] (https://www.coursera.org/learn/learn-responsive-web-design)
+The course was designed to take the student to a professional level in responsive web design.
+
+### Running the project
+This project was built using DevContainers in VSCODE and allows the user to 
+run an nginx webserver in the container which points to a local directory
+see .devcontainer/Dockerfile to adjust the location of the local filesystem and root of the project
+
+e.g.
+
+'RUN ln -s /workspaces/html-css-showcase/final-project /usr/share/nginx/html'
+
+
+
+
